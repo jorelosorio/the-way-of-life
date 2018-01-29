@@ -4,6 +4,10 @@ It is an experimental project that aims to find a starting point to think, relax
 
 ~To my boy Yoyo~
 
+# Live
+
+https://the-way-of-life.herokuapp.com/
+
 ### Dependencies
 
 - Install __NodeJs__ from https://nodejs.org/en/
