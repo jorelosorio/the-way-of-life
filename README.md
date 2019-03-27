@@ -2,7 +2,7 @@
 
 It is an experimental project that aims to find a starting point to think, relax. It does not have any meaning, is to appreciate the little details that make life, ¡The life!
 
-~To my boy Yoyo~
+~~ To my son Yoyo ~~
 
 # Live
 
