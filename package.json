@@ -1,36 +1,20 @@
 {
   "name": "the-way-of-life",
-  "version": "1.0.0",
-  "description": "It is an experimental project that aims to find a starting point to think, relax.",
-  "main": "gulpfile.js",
-  "dependencies": {},
+  "version": "1.0.1",
+  "description": "It is an experimental project that wants to calm you down and relax.",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
   "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-htmlmin": "^4.0.0",
-    "gulp-obfuscate": "^0.2.9",
-    "gulp-uglify": "^3.0.0",
-    "gulp-clean-css": "^3.9.2",
-    "gulp-imagemin": "^4.1.0",
-    "imagemin-pngquant": "^5.0.1"
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "nodemon": "^2.0.15"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --watch ./docs -V -L server.js",
+    "lint": "eslint --ext .js ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jorgeliecer/the-way-of-life.git"
-  },
-  "keywords": [
-    "javascript",
-    "gulp",
-    "youtube-api",
-    "soundcloud-widget"
-  ],
-  "author": "Jorel Osorio jorelosorio+life@gmail.com",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jorgeliecer/the-way-of-life/issues"
-  },
-  "homepage": "https://github.com/jorgeliecer/the-way-of-life#readme"
+  "author": "Jorge Osorio",
+  "license": "ISC"
 }

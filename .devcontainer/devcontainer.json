@@ -1,0 +1,9 @@
+// For more details, see https://aka.ms/devcontainer.json
+{
+	"dockerComposeFile": [
+		"../docker-compose.yml",
+	],
+	"service": "development",
+	"workspaceFolder": "/app",
+	"extensions": []
+}
