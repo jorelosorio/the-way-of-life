@@ -2,7 +2,9 @@
 
 It is an experimental project that wants to calm you down and relax. It does not have any meaning, is to appreciate the little details that make life, ¡The life!
 
-Try it: https://jorelosorio.github.io/the-way-of-life/
+## Try it
+
+https://jorelosorio.github.io/the-way-of-life/
 
 ## Development
 
@@ -11,13 +13,19 @@ However, if you want to make it run locally in your development machine, please 
 
 > \* For more information please refers to: https://code.visualstudio.com/docs/remote/containers#_getting-started
 
+### Dependencies
+
 Install node dependencies
     
     npm install
 
+### Run
+
 Run it locally
     
     npm run start
+
+### Check issues
 
 Check for lint issues
 
